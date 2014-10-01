@@ -6,51 +6,15 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 <html>
 	<head>
 		<title>Maggie's Password Generator</title>
+		<?php require 'logic.php'; ?>
 		<link rel='stylesheet' href="css/bootstrap.min.css" type='text/css'>
+		<link rel='stylesheet' href="css/style.css" type='text/css'>
 		<script src="js/bootstrap.min.js"></script>
-		<style type="text/css">
-
-			body {
-				font-family: trebuchet;
-				background-color: #45AAB8;
-			}
-
-			.container {
-				text-align: center;
-				background-color: white;
-			}
-
-			h1 {
-				margin-bottom: 25px;
-				color: #45AAB8;
-			}
-
-			#password {
-				width: 70%;
-				margin: 20px;
-				padding: 15px;
-				text-align: center;
-				margin-left: auto;
-				margin-right: auto;
-				border: 5px solid #FAF4B1;
-				background-color: #45AAB8;
-				font-weight: bold;
-				font-size: 2em;
-				color: #E1D772;
-			}
-
-			.btn {
-				margin: 10px;
-				font-weight: bold;
-				border: solid #45AAB8;
-			}
-
-		</style>
 	</head>
 	<body>
 		<div class="container">
 			<h1>XKCD Password Generator</h1>
-			<form>
+			<form method='POST' action='index.php'>
 				<label>How many words? </label>
 				<input type="text" name="count" id="count" size="5"/> (Max 10)<br>
 				<label>Add a number</label>
@@ -61,7 +25,11 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 			</form>
 			<div id="password">
 				<span>YOUR PASSWORD: </span><br>
-				<span></span>
+								
+				<?php 
+				echo $words[$pw[0]] . "-" . $words[$pw[1]] . "-" . $words[$pw[2]] . "-" . $words[$pw[3]] . "-" . $words[$pw[4]];			
+				?>
+
 			</div>
 			<div id="comic-pic" target="_blank" title="xkcd.com/936/">
 				<a href=" http://xkcd.com/936/">the comic that started it all</a><br>
