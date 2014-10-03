@@ -1,16 +1,27 @@
 body {
 	font-family: trebuchet;
 	background-color: #45AAB8;
+	font-size: 2em;
 }
 
 .container {
 	text-align: center;
 	background-color: white;
+	height: 100%;
 }
 
 h1 {
 	margin-bottom: 25px;
 	color: #45AAB8;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.content {
+	padding: 30px;
+	margin: 20px;
 }
 
 #password {
@@ -29,6 +40,10 @@ h1 {
 
 .btn {
 	margin: 10px;
+	padding: 20px;
 	font-weight: bold;
-	border: solid #45AAB8;
+	font-size: 1.2em;
+	border: solid #FAF4B1;
+	background-color: #45AAB8;
+	color: white;
 }
