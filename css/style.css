@@ -38,6 +38,11 @@ h3 {
 	color: #E1D772;
 }
 
+#comic-pic {
+	margin:auto;
+	width:70%;
+}
+
 .btn {
 	margin: 10px;
 	padding: 20px;

@@ -16,9 +16,9 @@
 				<h3>How do I get one?</h3>
 				<p>Well, you've come to the right place. This site functions as a password generator, generating random combinations of 2-10 words, numbers, and/or symbols that you can use to login to your favorite websites.</p>
 			</div>
-			<div id="comic-pic" target="_blank" title="xkcd.com/936/">
-				<a href=" http://xkcd.com/936/">the comic that started it all</a><br>
-				<img src="http://imgs.xkcd.com/comics/password_strength.png"/>
+			<div id="comic-pic" title="xkcd.com/936/">
+				<a href=" http://xkcd.com/936/" target="_blank" >the comic that started it all</a><br>
+				<img src="http://imgs.xkcd.com/comics/password_strength.png" class="img-responsive"/>
 			</div>
 		</div>
 	</body>
