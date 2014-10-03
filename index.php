@@ -9,7 +9,7 @@
 	<body>
 		<div class="container">
 			<h1>Maggie's XKCD Password Generator</h1>
-			<a class="btn btn-default" href="/p2/generator.php">GO TO THE GENERATOR!</a>
+			<a class="btn btn-default" href="/generator.php">GO TO THE GENERATOR!</a>
 			<div class="content">
 				<h3>XKCD, What?</h3>
 				<p>Originally based on a web comic by Randall Munroe, XKCD Password generators let you overcome the irony of modern computing and create passwords that you can actually remember, but that are hard for computers to guess.</p>
