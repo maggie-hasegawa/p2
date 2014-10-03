@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<a href="/p2/index.php"><h1>XKCD Password Generator</h1></a>
+			<a href="/index.php"><h1>XKCD Password Generator</h1></a>
 			<form method='GET' action='/generator.php'>
 				<label>How many words? </label>
 				<input type="text" name="count" id="count" size="5" value="<?php echo $count;?>"/> (Min 2, Max 10)<br>
